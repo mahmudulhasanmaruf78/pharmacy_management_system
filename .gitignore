@@ -1,0 +1,38 @@
+## Build outputs
+bin/
+obj/
+[Bb]uild/
+[Dd]ebug/
+[Rr]elease/
+
+## Visual Studio / VS Code
+.vs/
+.vscode/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.cache
+*.vsidx
+*.db
+*.opendb
+*.sqlite
+
+## Windows / OS files
+Thumbs.db
+Desktop.ini
+
+## Temporary and generated files
+*.log
+*.tmp
+*.bak
+*.pdb
+*.exe
+*.dll
+*.resources
+
+## Packages / backups
+*.nupkg
+*.zip
+*.7z
+*.bacpac
