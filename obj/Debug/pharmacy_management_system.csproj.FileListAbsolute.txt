@@ -1,0 +1,48 @@
+C:\Users\maruf\OneDrive\c# project\pharmacy_management_system\obj\Debug\pharmacy_management_system.csproj.AssemblyReference.cache
+C:\Users\maruf\OneDrive\c# project\pharmacy_management_system\obj\Debug\pharmacy_management_system.adminaddcategoris.resources
+C:\Users\maruf\OneDrive\c# project\pharmacy_management_system\obj\Debug\pharmacy_management_system.adminadduser.resources
+C:\Users\maruf\OneDrive\c# project\pharmacy_management_system\obj\Debug\pharmacy_management_system.Admindashboard.resources
+C:\Users\maruf\OneDrive\c# project\pharmacy_management_system\obj\Debug\pharmacy_management_system.adminaddproduct.resources
+C:\Users\maruf\OneDrive\c# project\pharmacy_management_system\obj\Debug\pharmacy_management_system.Admintransection.resources
+C:\Users\maruf\OneDrive\c# project\pharmacy_management_system\obj\Debug\pharmacy_management_system.Cashiardeshboard.resources
+C:\Users\maruf\OneDrive\c# project\pharmacy_management_system\obj\Debug\pharmacy_management_system.Cashier.resources
+C:\Users\maruf\OneDrive\c# project\pharmacy_management_system\obj\Debug\pharmacy_management_system.cashierorder.resources
+C:\Users\maruf\OneDrive\c# project\pharmacy_management_system\obj\Debug\pharmacy_management_system.cashiertransection.resources
+C:\Users\maruf\OneDrive\c# project\pharmacy_management_system\obj\Debug\pharmacy_management_system.Customar.resources
+C:\Users\maruf\OneDrive\c# project\pharmacy_management_system\obj\Debug\pharmacy_management_system.Form1.resources
+C:\Users\maruf\OneDrive\c# project\pharmacy_management_system\obj\Debug\pharmacy_management_system.Form2.resources
+C:\Users\maruf\OneDrive\c# project\pharmacy_management_system\obj\Debug\pharmacy_management_system.Loginform.resources
+C:\Users\maruf\OneDrive\c# project\pharmacy_management_system\obj\Debug\pharmacy_management_system.Properties.Resources.resources
+C:\Users\maruf\OneDrive\c# project\pharmacy_management_system\obj\Debug\pharmacy_management_system.signInform.resources
+C:\Users\maruf\OneDrive\c# project\pharmacy_management_system\obj\Debug\pharmacy_management_system.csproj.GenerateResource.cache
+C:\Users\maruf\OneDrive\c# project\pharmacy_management_system\obj\Debug\pharmacy_management_system.csproj.CoreCompileInputs.cache
+C:\Users\maruf\OneDrive\c# project\pharmacy_management_system\bin\Debug\pharmacy_management_system.exe.config
+C:\Users\maruf\OneDrive\c# project\pharmacy_management_system\bin\Debug\pharmacy_management_system.exe
+C:\Users\maruf\OneDrive\c# project\pharmacy_management_system\bin\Debug\pharmacy_management_system.pdb
+C:\Users\maruf\OneDrive\c# project\pharmacy_management_system\obj\Debug\pharmacy_management_system.exe
+C:\Users\maruf\OneDrive\c# project\pharmacy_management_system\obj\Debug\pharmacy_management_system.pdb
+C:\Users\maruf\OneDrive\c# project\pharmacy_management_system\obj\Debug\pharmacy_management_system.LodingProject.resources
+I:\pharmacy_management_system\obj\Debug\pharmacy_management_system.csproj.AssemblyReference.cache
+I:\pharmacy_management_system\obj\Debug\pharmacy_management_system.exe
+I:\pharmacy_management_system\obj\Debug\pharmacy_management_system.pdb
+I:\pharmacy_management_system\bin\Debug\pharmacy_management_system.exe.config
+I:\pharmacy_management_system\bin\Debug\pharmacy_management_system.exe
+I:\pharmacy_management_system\bin\Debug\pharmacy_management_system.pdb
+I:\pharmacy_management_system\obj\Debug\pharmacy_management_system.adminaddcategoris.resources
+I:\pharmacy_management_system\obj\Debug\pharmacy_management_system.adminadduser.resources
+I:\pharmacy_management_system\obj\Debug\pharmacy_management_system.Admindashboard.resources
+I:\pharmacy_management_system\obj\Debug\pharmacy_management_system.adminaddproduct.resources
+I:\pharmacy_management_system\obj\Debug\pharmacy_management_system.Admintransection.resources
+I:\pharmacy_management_system\obj\Debug\pharmacy_management_system.Cashiardeshboard.resources
+I:\pharmacy_management_system\obj\Debug\pharmacy_management_system.Cashier.resources
+I:\pharmacy_management_system\obj\Debug\pharmacy_management_system.cashierorder.resources
+I:\pharmacy_management_system\obj\Debug\pharmacy_management_system.cashiertransection.resources
+I:\pharmacy_management_system\obj\Debug\pharmacy_management_system.Customar.resources
+I:\pharmacy_management_system\obj\Debug\pharmacy_management_system.Form1.resources
+I:\pharmacy_management_system\obj\Debug\pharmacy_management_system.Form2.resources
+I:\pharmacy_management_system\obj\Debug\pharmacy_management_system.LodingProject.resources
+I:\pharmacy_management_system\obj\Debug\pharmacy_management_system.Loginform.resources
+I:\pharmacy_management_system\obj\Debug\pharmacy_management_system.Properties.Resources.resources
+I:\pharmacy_management_system\obj\Debug\pharmacy_management_system.signInform.resources
+I:\pharmacy_management_system\obj\Debug\pharmacy_management_system.csproj.GenerateResource.cache
+I:\pharmacy_management_system\obj\Debug\pharmacy_management_system.csproj.CoreCompileInputs.cache

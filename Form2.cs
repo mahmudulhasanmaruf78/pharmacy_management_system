@@ -19,8 +19,13 @@ namespace pharmacy_management_system
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Loginform B1 = new Loginform();
-                B1.Show();
+            new Loginform().Show();
+            this.Hide();
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

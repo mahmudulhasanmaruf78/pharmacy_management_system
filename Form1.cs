@@ -7,6 +7,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Data.SqlClient;
+using System.Reflection.Emit;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement.StartPanel;
+using System.Net.NetworkInformation;
 
 namespace pharmacy_management_system
 {
@@ -21,18 +25,18 @@ namespace pharmacy_management_system
             InitializeComponent();
         }
 
-        private void adminadduser1_Load(object sender, EventArgs e)
-        {
+        SqlConnection con = new SqlConnection(@"Data Source=LAPTOP-HB9J2MTK;Initial Catalog=pharmacy_management_system;Integrated Security=True;");
 
-        }
+
+        
 
         private void Form1_Load(object sender, EventArgs e)
         {
-             admindashboard f1 = new admindashboard();
+             Admindashboard f1 = new Admindashboard();
              adminadduser f2 = new adminadduser();
              adminaddcategoris f3= new adminaddcategoris();
              adminaddproduct f4= new adminaddproduct();
-             admintransection f5 = new admintransection();
+             Admintransection f5 = new Admintransection();
 
             userControls.Add(f1);
             userControls.Add(f2);
@@ -50,51 +54,11 @@ namespace pharmacy_management_system
             userControls[index].Visible = true;
             userControls[index].BringToFront();
 
-
-        }
-
-        private void admin_Dashboard_Click(object sender, EventArgs e)
-        {
-            index = 0;
-            ShowControl(index);
-
-        }
-
-        private void admin_adduser_Click(object sender, EventArgs e)
-        {
-            index = 1;
-            ShowControl(index);
-
-        }
-
-        private void admin_addcategories_Click(object sender, EventArgs e)
-        {
-            index = 2;
-            ShowControl(index);
-        }
-
-        private void admin_addproducts_Click(object sender, EventArgs e)
-        {
-            index = 3;
-            ShowControl(index);
-        }
-
-        private void admin_transaction_Click(object sender, EventArgs e)
-        {
-            index = 4;
-            ShowControl(index);
-        }
-
-        private void admin_logout_Click(object sender, EventArgs e)
-        {
-            Loginform a1 = new Loginform();
-            a1.Show();
-
         }
 
         private void label2_Click(object sender, EventArgs e)
         {
-            Application.Exit();
+           
         }
 
 
@@ -112,6 +76,62 @@ namespace pharmacy_management_system
                     userControls[i].Visible = false;
                 }
             }
+        }
+
+        private void label_Exit_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void pictureBox3_Click(object sender, EventArgs e)
+        {
+            index = 0;
+            ShowControl(index);
+        }
+
+        private void panel2_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void Admin_addcategories_Click(object sender, EventArgs e)
+        {
+
+            index = 2;
+            ShowControl(index);
+        }
+
+        private void Admin_addproducts_Click(object sender, EventArgs e)
+        {
+
+            index = 3;
+            ShowControl(index);
+        }
+
+        private void Admin_adduser_Click(object sender, EventArgs e)
+        {
+            index = 1;
+            ShowControl(index);
+
+        }
+
+        private void Admin_Dashboard_Click(object sender, EventArgs e)
+        {
+            index = 0;
+            ShowControl(index);
+        }
+
+        private void Admin_logout_Click(object sender, EventArgs e)
+        {
+            Loginform a1 = new Loginform();
+            a1.Show();
+            this.Hide();
+        }
+
+        private void Admin_transaction_Click(object sender, EventArgs e)
+        {
+            index = 4;
+            ShowControl(index);
         }
     }
 }

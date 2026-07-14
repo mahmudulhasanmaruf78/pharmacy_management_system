@@ -1,6 +1,6 @@
 ﻿namespace pharmacy_management_system
 {
-    partial class admintransection
+    partial class Admintransection
     {
         /// <summary> 
         /// Required designer variable.
@@ -28,20 +28,21 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.dataGridView_trans = new System.Windows.Forms.DataGridView();
             this.label1 = new System.Windows.Forms.Label();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView_trans)).BeginInit();
             this.SuspendLayout();
             // 
-            // dataGridView1
+            // dataGridView_trans
             // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(17, 85);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.RowHeadersWidth = 62;
-            this.dataGridView1.RowTemplate.Height = 28;
-            this.dataGridView1.Size = new System.Drawing.Size(789, 565);
-            this.dataGridView1.TabIndex = 4;
+            this.dataGridView_trans.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView_trans.Location = new System.Drawing.Point(17, 85);
+            this.dataGridView_trans.Name = "dataGridView_trans";
+            this.dataGridView_trans.RowHeadersWidth = 62;
+            this.dataGridView_trans.RowTemplate.Height = 28;
+            this.dataGridView_trans.Size = new System.Drawing.Size(789, 565);
+            this.dataGridView_trans.TabIndex = 4;
+            this.dataGridView_trans.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView_trans_CellContentClick);
             // 
             // label1
             // 
@@ -53,16 +54,17 @@
             this.label1.TabIndex = 3;
             this.label1.Text = "All Customar";
             // 
-            // admintransection
+            // Admintransection
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.MenuHighlight;
-            this.Controls.Add(this.dataGridView1);
+            this.Controls.Add(this.dataGridView_trans);
             this.Controls.Add(this.label1);
-            this.Name = "admintransection";
+            this.Name = "Admintransection";
             this.Size = new System.Drawing.Size(814, 695);
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            this.Load += new System.EventHandler(this.Admintransection_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView_trans)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -70,7 +72,7 @@
 
         #endregion
 
-        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.DataGridView dataGridView_trans;
         private System.Windows.Forms.Label label1;
     }
 }
